@@ -90,4 +90,8 @@ Info on feature names and their meaning / relevance to analysis...
 
 ### **Conclusion / Next Steps**<br>
 
+Our project aims to serve as an additional catalyst to creating a more robust and holistic score designed for everyone, especially individuals of underrepresented communities. The current credit scoring system used by a majority of banks today is rather unfair and outdated since previous biases for individuals typically affect their eligibility with loan applications. Therefore, from our model results, we plan to further the work of Prism Data by supporting in improving their cash score to allow for a significant number of people to be given a new sense of trust. Many aspects of our society has changed to be up to date with new steps, consequently, it’s time for the modern day credit score to be updated as well.
+
+With our next steps, we will continue to improve our current model by gathering new unique features that would allow for better insight on how likely someone is to default. On top of that, our current features may have biases on geographical or demographic location, we will continue to reevaluate the impact that those features pose on our model results. Ultimately, we want to create a model that has no access to geographic identifiable information as this poses biases on certain groups of our society.
+
 <br>
