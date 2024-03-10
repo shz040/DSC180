@@ -73,7 +73,10 @@ Info on feature names and their meaning / relevance to analysis...
 <br><br>
 
 ### **Results**<br>
-
+| Risk Assessment Model | ROC-AUC Score |
+| --- | --- |
+| Logistic Regression | 0.57778 |
+| Sequential NN | 0.78500 |
 <br><br>
 
 ### **Conclusion / Next Steps**<br>
