@@ -73,6 +73,14 @@ Info on feature names and their meaning / relevance to analysis...
 <br><br>
 
 ### **Results**<br>
+
+| Memo Classification Model | Accuracy |
+| --- | --- |
+| BERT | 88% |
+| Logistic Regression with TF-IDF | 97% |
+| Decision Tree Classifier with TF-IDF | 98% |
+
+
 | Risk Assessment Model | ROC-AUC Score |
 | --- | --- |
 | Logistic Regression | 0.57778 |
