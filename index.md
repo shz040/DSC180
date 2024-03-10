@@ -58,8 +58,9 @@ Info on feature names and their meaning / relevance to analysis...
 | credit ratio | maximum number of consecutive months in which a consumer pays of a loan |
 | prop spending | percentage of total consumer spending for each category |
 | overdraft freq | boolean value of users with more than 1 monthly overdraft transaction |
-![Boxplots of Most Significant Features](boxplots_image.jpg)
+
 #### TF-IDF<br>
+![Boxplots of Most Significant Features](boxplots_image.jpg)
 
 <br><br>
 
