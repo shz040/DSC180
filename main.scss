@@ -1,0 +1,13 @@
+---
+---
+
+// Import the Cayman theme's styles
+@import "{{ site.theme }}";
+
+// Custom styles
+.page-header {
+  // Change the title's font size
+  .project-name {
+    font-size: 3rem; // Adjust the value to your desired font size
+  }
+}
