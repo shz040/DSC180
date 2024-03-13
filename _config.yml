@@ -3,5 +3,9 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 gem "github-pages", group: :jekyll_plugins
 
-title: [Creating a more holistic Credit Score for Consumers]
-description: [Lakshmikethan Bethamcharla, Darren Jiang, Sheng Zhou, Victor Thai]
+title: Multi-label Disease Prediction Based on Gut Microbiome
+description: UCSD HDSI Capstone Project (Renaldy Herlim, Amando Jimenez, Emerson Chao)
+
+github:
+  is_project_page: false
+  repository_url: https://github.com/your-github-username/your-repository
