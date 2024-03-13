@@ -1,4 +1,6 @@
-
+---
+# Remove the title and description lines from here
+---
 
 ### **Why a New Credit Score**<br>
 
