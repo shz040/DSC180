@@ -3,5 +3,5 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 gem "github-pages", group: :jekyll_plugins
 
-title: [The title of your site]
-description: [A short description of your site's purpose]
+title: [Creating a more holistic Credit Score for Consumers]
+description: [Lakshmikethan Bethamcharla, Darren Jiang, Sheng Zhou, Victor Thai]
