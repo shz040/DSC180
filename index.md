@@ -42,7 +42,7 @@ We have four datasets: inflows (money going into accounts), outflows (money goin
 
 We  created over 200 distinct input features like balance summaries, category spending, disposable income, monthly averages, and spending ratios. Creating monthly features required splitting the data by year and month and using the median. We filtered to the most effective features for the final model to avoid overfitting. 
 
-![Boxplots of Most Significant Features](boxplots_image.jpg)
+![Boxplots of Most Significant Features](boxplot1.png)
 
 <br><br>
 
@@ -55,7 +55,7 @@ We created a Logistic Regression model to serve as a baseline. we created a logi
 #### Neural Net<br>
 
 We  trained a sequential neural network initially for 500 epochs with batch size 8, then reduced to 200 epochs with batch size 64 for faster training. The neural network has 5 hidden layers with sizes 12, 24, 24, 12, and 6. It takes in 40 features and outputs the probability of default through a sigmoid function. You optimized the threshold by testing different values on the validation set to maximize the ROC-AUC score. The model with the lowest validation loss during training is used as the final model.
-![Boxplots of Most Significant Features](boxplots_image.jpg)
+![Boxplots of Most Significant Features](Neural.png)
 <br><br>
 
 ### **Results**<br>
