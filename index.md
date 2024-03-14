@@ -1,7 +1,3 @@
----
-# layout: default
-# title: "Creating a more holistic Credit Score for Consumers"
----
 
 ### **Creating a more holistic Credit Score for Consumers**<br>
 
