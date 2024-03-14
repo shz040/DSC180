@@ -1,3 +1,7 @@
+---
+# layout: default
+# title: "Creating a more holistic Credit Score for Consumers"
+---
 
 ### **Why a New Credit Score**<br>
 
