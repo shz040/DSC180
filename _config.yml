@@ -5,6 +5,7 @@ gem "github-pages", group: :jekyll_plugins
 
 title: Creating a more holistic Credit Score for Consumers
 description: Lakshmikethan Bethamcharla, Darren Jiang, Sheng Zhou, Victor Thai
+description: Section: B18, Mentors: Brian Duke & Berk Ustun
 
 github:
   is_project_page: True
