@@ -1,12 +1,5 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-gem "github-pages", group: :jekyll_plugins
-
-title: Creating a more holistic Credit Score for Consumers
-description: Section: B18 [Lakshmikethan Bethamcharla, Darren Jiang, Sheng Zhou, Victor Thai] Mentors: Brian Duke & Berk Ustun
-
-
+- jekyll-remote-theme
 github:
-  is_project_page: False
-  repository_url: https://github.com/JiaDarren/DSC_180A
+  is_project_page: false
