@@ -63,6 +63,7 @@ We trained a sequential neural network initially for 500 epochs with batch size 
 
 For classifying memos by category of credit card transactions, we utilized our cleaned data
 with three different models to see which could perform the best.
+
 | Memo Classification Model | Accuracy |
 | --- | --- |
 | BERT | 88% |
