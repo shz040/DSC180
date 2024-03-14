@@ -5,11 +5,11 @@ Section: B18, Mentors: Brian Duke & Berk Ustun
 <br><br>
 
 ### **Why a New Credit Score**<br>
-A credit score is a numerical rating that represents the perceived ability of a person or organizaton to fulfill their financial commitments. The current scoring system in place is one that has been established and in use for a great number of years now, without many changes. Many new systems and additional data on financial behavior are now in place that allow for greater granularity of a consumer's overall financial behavior even without a credit score. The current credit scoring system today primarily relies on a consumer’s previous credit history, leaving those that are just starting out with little to no credit history to be unable to qualify for any loans. With the rise of banking transactions and the use of personal transaction accounts, we aim to use this data to further extrapolate a consumer's behavior.
+A credit score is a numerical rating that represents the perceived ability of a person or organization to fulfill their financial commitments. The current scoring system in place is one that has been established and in use for a great number of years now, without many changes. Many new systems and additional data on financial behavior are now in place that allow for greater granularity of a consumer's overall financial behavior even without a credit score. The current credit scoring system today primarily relies on a consumer’s previous credit history, leaving those that are just starting out with little to no credit history to be unable to qualify for any loans. With the rise of banking transactions and the use of personal transaction accounts, we aim to use this data to further extrapolate a consumer's behavior.
 <br><br>
 
 ### **Introduction**<br>
-Our project's goal is to create a credit score for individuals. We split the work into two parts: categorizing transactions and building a risk prediction model. First, we cleaned up messy transaction descriptions and used methods like BERT to accurately classify transactions into categories like groceries or bills. Next, we created features from people's transaction history, account balances, and estimated income. We then built models like linear regression and neural networks to analyze these features and predict someone's risk of defaulting on a loan.
+Our project's goal is to create a credit score for individuals. We split the work into two parts: categorizing transactions and building a risk prediction model. First, we cleaned up messy transaction descriptions and used methods such as BERT to accurately classify transactions into categories like groceries or bills. Next, we created features from people's transaction history, account balances, and estimated income. We then built models like linear regression and neural networks to analyze these features and predict someone's risk of defaulting on a loan.
 <br><br>
 
 ### **Data**<br>
@@ -54,7 +54,8 @@ We created a Logistic Regression model to serve as a baseline. we created a logi
 
 #### Neural Net<br>
 
-We  trained a sequential neural network initially for 500 epochs with batch size 8, then reduced to 200 epochs with batch size 64 for faster training. The neural network has 5 hidden layers with sizes 12, 24, 24, 12, and 6. It takes in 40 features and outputs the probability of default through a sigmoid function. You optimized the threshold by testing different values on the validation set to maximize the ROC-AUC score. The model with the lowest validation loss during training is used as the final model.
+We trained a sequential neural network initially for 500 epochs with batch size 8, then reduced to 200 epochs with batch size 64 for faster training. The neural network has 5 hidden layers with sizes 12, 24, 24, 12, and 6. It takes in 40 features and outputs the probability of default through a sigmoid function. We optimized the threshold by testing different values on the validation set to maximize the ROC-AUC score. The model with the lowest validation loss during training is used as the final model.
+
 ![Boxplots of Most Significant Features](Neural.png)
 <br><br>
 
@@ -68,7 +69,7 @@ with three different models to see which could perform the best.
 | Logistic Regression with TF-IDF | 97% |
 | Decision Tree Classifier with TF-IDF | 98% |
 
-When looking at the results for the risk-assessment models.
+When looking at the results for the risk-assessment models:
 
 | Risk Assessment Model | ROC-AUC Score |
 | --- | --- |
